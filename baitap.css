@@ -1,0 +1,93 @@
+body{
+    background-image: url('./images/background.jpg');
+    background-position: center;
+    background-size:cover;
+    width: 877px;
+    height: 620px;
+    overflow:hidden;
+    display:flex;
+}
+image{
+    position: relative;
+}
+#anh1{
+    width:1200px;
+    height:620px;
+}
+#co
+{
+    height: 200px;
+    width:200px;
+    position: absolute;
+    top:430px;
+    left:-44px;
+}
+#casau{
+    position: absolute;
+    animation-name: moveRight;
+    animation-duration: 3s  ;
+
+}
+@keyframes moveRight {
+    0% {
+        left: -1px;
+    }
+    30%{
+        top: 120px;
+    }
+    60%{
+        top: 70px;
+    }
+    80%{
+        top: 35px;
+    }
+    100% {
+        left: 1050px;
+    }
+}
+#cabong{
+    position: absolute;
+    animation-name: moveleft;
+    animation-duration: 2s  ;
+
+}
+@keyframes moveleft {
+    0% {
+        right: -10px;
+    }
+    30%{
+        top: 135px;
+    }
+    60%{
+        top: 65px;
+    }
+    80%{
+        top: 38px;
+    }
+    100% {
+        right: 1100px;
+    }
+}
+#calao{
+    position: absolute;
+    animation-name: moveRight;
+    animation-duration: 1s  ;
+
+}
+@keyframes moveRight {
+    0% {
+        left: -3px;
+    }
+    30%{
+        top: 134px;
+    }
+    60%{
+        top: 85px;
+    }
+    80%{
+        top: 45px;
+    }
+    100% {
+        left: 955px;
+    }
+}
