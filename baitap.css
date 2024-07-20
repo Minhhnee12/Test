@@ -22,6 +22,52 @@ image{
     top:430px;
     left:-44px;
 }
+#cadong{
+    position: absolute;
+    animation-name: moveRight;
+    animation-duration: 5s  ;
+
+}
+@keyframes moveRight {
+    0% {
+        left: -3px;
+    }
+    30%{
+        top: 100px;
+    }
+    60%{
+        top: 50px;
+    }
+    80%{
+        top:20px;
+    }
+    100% {
+        left: 1000px;
+    }
+}
+#cavoi{
+    position: absolute;
+    animation-name: moveleft;
+    animation-duration: 5s  ;
+
+}
+@keyframes moveleft {
+    0% {
+        right: -7px;
+    }
+    30%{
+        top: 70px;
+    }
+    60%{
+        top: 40px;
+    }
+    80%{
+        top: 17px;
+    }
+    100% {
+        right: 800px;
+    }
+}
 #casau{
     position: absolute;
     animation-name: moveRight;
